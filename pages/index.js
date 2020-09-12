@@ -19,24 +19,24 @@ export default function HomePage() {
 
         <div className={styles.grid}>
 
-          <a href="https://www.docker.com/" className={styles.card}>
+          <a href="https://www.docker.com/" target="_blank" className={styles.card}>
             <h3>Docker</h3>
             <p> Help developers and development teams build and ship apps.</p>
           </a>
 
-          <a href="https://nodejs.org/" className={styles.card}>
+          <a href="https://nodejs.org/" target="_blank" className={styles.card}>
             <h3>Node.js</h3>
             <p>A JavaScript runtime built on Chrome's V8 JavaScript engine.</p>
           </a>
 
-          <a href="https://reactjs.org/" className={styles.card}>
+          <a href="https://reactjs.org/" target="_blank" className={styles.card}>
             <h3>React.js</h3>
             <p>A JavaScript library for building user interfaces.</p>
           </a>
 
-          <a href="https://nextjs.org/" className={styles.card}>
+          <a href="https://nextjs.org/" target="_blank" className={styles.card}>
             <h3>Next.js</h3>
-            <p>The React Framework for Production</p>
+            <p>The React Framework for Production.</p>
           </a>
         </div>
       </main>
